@@ -28,7 +28,14 @@ namespace KuasCore.Dao.Impl
 
             return employees;
         }
-        
+        public Employee GetEmployeeById(string id)
+        {
+            Employee employees1 = new Employee();
+            employees1.Id = "PaulWalker";
+            employees1.Name = "保羅沃克";
+            employees1.Age = 40;
+            return employees1;
+        }
 
     }
 }
